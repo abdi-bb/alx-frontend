@@ -268,7 +268,7 @@ a:active {
 
 /* Create the after pseudo elements of the link (inside card-title and card-work) */
 .card-work .card-title a::after {
-    content: ''; /* The content property of these elements should have an empty value */
+    content: ""; /* The content property of these elements should have an empty value */
     position: absolute; /* Absolutely position the selected elements */
     top: 0; /* Set the top position to be 0 */
     right: 0; /* Set the right position to be 0 */
